@@ -1,0 +1,32 @@
+.form {
+  width: 100%;
+  display: flex;
+  padding: 1.4rem 1rem;
+  background-color: var(--color-bg-dark);
+  box-sizing: border-box;
+}
+
+.input {
+  flex: 1 1 0;
+  font-size: 1.6rem;
+  padding: 0.7rem 1rem;
+  border: none;
+  outline: none;
+  border-top-left-radius: .8rem;
+  border-bottom-left-radius: .8rem;
+}
+
+.button {
+  cursor: pointer;
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0 2rem;
+  border-top-right-radius: .8rem;
+  border-bottom-right-radius: .8rem;
+}
+
+.button:hover {
+  filter: brightness(110%);
+}
